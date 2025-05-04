@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Georgia', serif;
+  background: linear-gradient(to bottom, #f09b88 50%, #b9a3b5 50%);
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: transparent;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: blue;
+}
+
+.logo span {
+  color: purple;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.search-bar {
+  display: flex;
+}
+
+.search-bar input {
+  padding: 5px;
+  border: none;
+}
+
+.search-bar button {
+  padding: 5px 10px;
+  background: orange;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.hero-text {
+  max-width: 60%;
+}
+
+.hero-text h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero-text .highlight {
+  color: orange;
+}
+
+.hero-text p {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.join-btn {
+  padding: 10px 20px;
+  background: orange;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+}
+
+.login-box {
+  background: #2c2c2c;
+  padding: 30px;
+  border-radius: 10px;
+  width: 300px;
+  color: white;
+}
+
+.login-box h2 {
+  background: white;
+  color: orange;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.login-box input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-bottom: 1px solid orange;
+  background: transparent;
+  color: white;
+}
+
+.login-box .login-btn {
+  width: 100%;
+  padding: 10px;
+  background: orange;
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.login-box a {
+  color: orange;
+  text-decoration: none;
+}
+
+.social-icons span {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+footer {
+  text-align: center;
+  background: red;
+  padding: 10px;
+  color: yellow;
+  font-weight: bold;
+}
