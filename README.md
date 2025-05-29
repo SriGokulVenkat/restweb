@@ -28,211 +28,165 @@ Validate the HTML code.
 Publish the website in the given URL.
 
 ## PROGRAM:
----
+index.html:
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>VirtuTech Solutions</title>
-  <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8">
+  <title>Home - BITE ME</title>
 </head>
-<body>
-  <header>
-    <div class="logo">Virtu<span>Tech</span> Solutions</div>
-    <nav>
-      <a href="#">HOME</a>
-      <a href="#">PEOPLE</a>
-      <a href="#">PRODUCTS</a>
-      <a href="#">CONTACT</a>
-    </nav>
-    <div class="search-bar">
-      <input type="text" placeholder="Enter To Search" />
-      <button>Search</button>
-    </div>
-  </header>
+<body style="margin:0; font-family:sans-serif; background: linear-gradient(to right, #071258, #329faf); color:white;">
 
-  <main>
-    <section class="hero">
-      <div class="hero-text">
-        <h1>A Software Agency shaping <span class="highlight">ideas into</span> Products</h1>
-        <p>"People who are really serious about software should make their own hardware" - Alan Kay.</p>
-        <button class="join-btn">JOIN US</button>
-      </div>
-      <div class="login-box">
-        <h2>Login Here</h2>
-        <input type="text" placeholder="Username or Email" />
-        <input type="password" placeholder="Password" />
-        <button class="login-btn">Login</button>
-        <p>Don't have an account? <a href="#">Sign up here</a></p>
-        <p>Log in with</p>
-        <div class="social-icons">
-          <span>🌐</span>
-          <span>📸</span>
-          <span>🐦</span>
-          <span>🟢</span>
-        </div>
-      </div>
-    </section>
+  <header style="padding:20px; text-align:center;">
+    <h1 style="margin-bottom:10px; font-size:36px;">Welcome to BITE ME</h1>
+    <nav>
+      <a href="index.html" style="margin:10px; color:white; text-decoration:none;">Home</a>
+      <a href="menu.html" style="margin:10px; color:white; text-decoration:none;">Menu</a>
+      <a href="admin.html" style="margin:10px; color:white; text-decoration:none;">Administration</a>
+      <a href="contact.html" style="margin:10px; color:white; text-decoration:none;">Contact Us</a>
+    </nav>
+  </header>
+  <br>
+  <br>
+
+  <main style="display:flex; flex-direction:column; align-items:center; justify-content:center; height:70vh;">
+    <img src="biteme.png.jpg" alt="Foodie's Hub" style="width:300px; height:auto; display:block; margin-bottom:20px;">
+    <h2>Your one-stop destination for delicious food</h2>
+    <center><p style="max-width:600px; font-size:16px;">Explore our curated menu and meet the amazing people behind the scenes. Whether you're craving comfort or exotic food — we’ve got you covered.</p></center>
+
+    <div style="margin-top:30px; background:white; padding:20px 40px; border-radius:15px; box-shadow: 0 5px 15px rgba(0,0,0,0.3);">
+      <h3 style="color:#05082d;">🛒 Start your flavor journey today!</h3>
+      <a href="menu.html" style="margin-top:10px; display:inline-block; padding:10px 20px; background:#b02147; color:white; border-radius:20px; text-decoration:none; font-weight:bold;">View Menu</a>
+    </div>
   </main>
 
-  <footer>
-    Designed and Developed by Dr.R.SELVAKUMAR © 2023
-  </footer>
 </body>
 </html>
+menu.html:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Menu - Foodie's Hub</title>
+</head>
+<body style="margin:0; font-family:sans-serif; background: linear-gradient(to right, #d46c0b, #a57829); color:rgb(30, 31, 26);">
 
----
----
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+  <header style="padding:20px; text-align:center;">
+    <h1>Our Delicious Menu</h1>
+    <nav>
+      <a href="index.html" style="margin:10px; color:white; text-decoration:none;">Home</a>
+      <a href="menu.html" style="margin:10px; color:white; text-decoration:none;">Menu</a>
+      <a href="admin.html" style="margin:10px; color:white; text-decoration:none;">Administration</a>
+      <a href="contact.html" style="margin:10px; color:white; text-decoration:none;">Contact Us</a>
+    </nav>
+  </header>
+  
 
-body {
-  font-family: 'Georgia', serif;
-  background: linear-gradient(to bottom, #f09b88 50%, #b9a3b5 50%);
-  color: white;
-}
+  <main style="padding:30px;">
+    <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(180px, 1fr)); gap:20px;">
+      <div style="background:white; color:#333; padding:20px; border-radius:10px;">Pizza</div>
+      <div style="background:white; color:#333; padding:20px; border-radius:10px;">Burger</div>
+      <div style="background:white; color:#333; padding:20px; border-radius:10px;">Pasta</div>
+      <div style="background:white; color:#333; padding:20px; border-radius:10px;">Sushi</div>
+      <div style="background:white; color:#333; padding:20px; border-radius:10px;">Tacos</div>
+      <div style="background:white; color:#333; padding:20px; border-radius:10px;">Fried Chicken</div>
+      <div style="background:white; color:#333; padding:20px; border-radius:10px;">Noodles</div>
+      <div style="background:white; color:#333; padding:20px; border-radius:10px;">Paneer Tikka</div>
+      <div style="background:white; color:#333; padding:20px; border-radius:10px;">Salad Bowl</div>
+      <div style="background:white; color:#333; padding:20px; border-radius:10px;">Biryani</div>
+      <div style="background:white; color:#333; padding:20px; border-radius:10px;">Ice Cream</div>
+      <div style="background:white; color:#333; padding:20px; border-radius:10px;">Waffle</div>
+      <div style="background:white
+admin.html:
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Administration - Foodie's Hub</title>
+</head>
+<body style="margin:0; font-family:sans-serif; background: linear-gradient(to right, #0b0e0f, #26002a); color:white;">
 
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-  background: transparent;
-}
+  <header style="padding:20px; text-align:center;">
+    <h1>Meet Our Team</h1>
+    <nav>
+      <a href="index.html" style="margin:10px; color:white; text-decoration:none;">Home</a>
+      <a href="menu.html" style="margin:10px; color:white; text-decoration:none;">Menu</a>
+      <a href="admin.html" style="margin:10px; color:white; text-decoration:none;">Administration</a>
+      <a href="contact.html" style="margin:10px; color:white; text-decoration:none;">Contact Us</a>
+    </nav>
+  </header>
 
-.logo {
-  font-size: 24px;
-  font-weight: bold;
-  color: blue;
-}
+  <main style="padding:30px;">
+    <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(200px, 1fr)); gap:20px; text-align:center;">
+      <div style="background:white; color:#333; padding:20px; border-radius:10px;">
+        <img src="person1.jpg" alt="Vijay" style="width:100px; height:100px; border-radius:50%;"><br>
+        <h3>Vijay</h3><p>CEO</p>
+      </div>
+      <div style="background:white; color:#333; padding:20px; border-radius:10px;">
+        <img src="person2.jpg" alt="STR" style="width:100px; height:100px; border-radius:50%;"><br>
+        <h3>STR</h3><p>CO FOUNDER</p>
+      </div>
+      <div style="background:white; color:#333; padding:20px; border-radius:10px;">
+        <img src="person3.jpg" alt="Kashmira" style="width:100px; height:100px; border-radius:50%;"><br>
+        <h3>Kashmira</h3><p>Marketing</p>
+      </div>
+      <div style="background:white; color:#333; padding:20px; border-radius:10px;">
+        <img src="person4.jpg" alt="Zayn Malik" style="width:100px; height:100px; border-radius:50%;"><br>
+        <h3>Zayn Malik</h3><p>Marketing</p>
+      </div>
+      <div style="background:white; color:#333; padding:20px; border-radius:10px;">
+        <img src="person5.jpg" alt="Samantha" style="width:100px; height:100px; border-radius:50%;"><br>
+        <h3>Samantha</h3><p>Marketing</p>
+      </div>
+      <div style="background:white; color:#333; padding:20px; border-radius:10px;">
+        <img src="person6.jpg" alt="Dhanush" style="width:100px; height:100px; border-radius:50%;"><br>
+        <h3>Dhanush</h3><p>Marketing</p>
+      </div>
+    </div>
+  </main>
 
-.logo span {
-  color: purple;
-}
+</body>
+</html>
+contact.html:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Us - Foodie's Hub</title>
+</head>
+<body style="margin:0; font-family:sans-serif; background: linear-gradient(to right, #3d020a, #081b5c); color:white;">
 
-nav a {
-  margin: 0 15px;
-  text-decoration: none;
-  color: white;
-  font-weight: bold;
-}
+  <header style="padding:20px; text-align:center;">
+    <h1>Contact Us</h1>
+    <nav>
+      <a href="index.html" style="margin:10px; color:white; text-decoration:none;">Home</a>
+      <a href="menu.html" style="margin:10px; color:white; text-decoration:none;">Menu</a>
+      <a href="admin.html" style="margin:10px; color:white; text-decoration:none;">Administration</a>
+      <a href="contact.html" style="margin:10px; color:white; text-decoration:none;">Contact Us</a>
+    </nav>
+  </header>
 
-.search-bar {
-  display: flex;
-}
+  <main style="padding:30px; text-align:center;">
+    <p><strong>📍 Address:</strong> 123 Food Street, Flavor Town, India</p>
+    <p><strong>📞 Phone:</strong> +91-9876543210</p>
+    <p><strong>📧 Email:</strong> contact@foodieshub.com</p>
+  </main>
 
-.search-bar input {
-  padding: 5px;
-  border: none;
-}
-
-.search-bar button {
-  padding: 5px 10px;
-  background: orange;
-  border: none;
-  color: white;
-  cursor: pointer;
-}
-
-.hero {
-  display: flex;
-  justify-content: space-between;
-  padding: 50px;
-}
-
-.hero-text {
-  max-width: 60%;
-}
-
-.hero-text h1 {
-  font-size: 36px;
-  margin-bottom: 20px;
-}
-
-.hero-text .highlight {
-  color: orange;
-}
-
-.hero-text p {
-  margin-bottom: 20px;
-  font-weight: bold;
-}
-
-.join-btn {
-  padding: 10px 20px;
-  background: orange;
-  border: none;
-  cursor: pointer;
-  color: white;
-  font-weight: bold;
-}
-
-.login-box {
-  background: #2c2c2c;
-  padding: 30px;
-  border-radius: 10px;
-  width: 300px;
-  color: white;
-}
-
-.login-box h2 {
-  background: white;
-  color: orange;
-  text-align: center;
-  padding: 10px;
-  margin-bottom: 20px;
-  border-radius: 5px;
-}
-
-.login-box input {
-  display: block;
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 15px;
-  border: none;
-  border-bottom: 1px solid orange;
-  background: transparent;
-  color: white;
-}
-
-.login-box .login-btn {
-  width: 100%;
-  padding: 10px;
-  background: orange;
-  border: none;
-  color: white;
-  font-weight: bold;
-  cursor: pointer;
-  margin-bottom: 10px;
-}
-
-.login-box a {
-  color: orange;
-  text-decoration: none;
-}
-
-.social-icons span {
-  margin-right: 10px;
-  font-size: 20px;
-}
-
-footer {
-  text-align: center;
-  background: red;
-  padding: 10px;
-  color: yellow;
-  font-weight: bold;
-}
+</body>
+</html>
 
 ---
 
 
 ## OUTPUT:
-![alt text](<Screenshot 2025-05-04 171224.png>)
+![Screenshot 2025-05-29 100618](https://github.com/user-attachments/assets/7965b9a8-25c7-4056-990e-e6d993618b9b)
+
+![Screenshot 2025-05-29 100631](https://github.com/user-attachments/assets/9fdc552b-a06c-4c7f-bac4-a6736c7c753c)
+![Screenshot 2025-05-29 100643](https://github.com/user-attachments/assets/5f41998b-d0fe-42fb-b99d-b2a4b8922292)
+![Screenshot 2025-05-29 100643](https://github.com/user-attachments/assets/25e9057c-3294-42aa-a60b-61966bd9a2de)
+![Screenshot 2025-05-29 100654](https://github.com/user-attachments/assets/90407ec6-44fc-467e-a2c2-c2b93466389a)
+
+
 
 ## RESULT:
 The program for designing software company website using HTML and CSS is completed successfully.
